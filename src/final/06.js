@@ -30,7 +30,7 @@ function PokemonInfo({pokemonName}) {
 }
 
 function App() {
-  const [pokemonName, setPokemonName] = React.useState('')
+  const [pokemonName, setPokemonName] = React.useState('pokemonName')
 
   function handleSubmit(newPokemonName) {
     setPokemonName(newPokemonName)
